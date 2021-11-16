@@ -7,7 +7,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
-  background-color: #fcf3f6;
+  background-color: #f0f0f0; 
 }
 
 h1 {
@@ -26,24 +26,24 @@ h2 {
   padding: 0.5rem 1.5rem;
   cursor: pointer;
   border-radius: 4px;
-  background-color: #800040;
+  background-color: #ff976a;;
   color: white;
-  border: 1px solid #800040;
+  border: 1px solid #ff976a;;
   margin: 0 1rem;
 }
 
 .btn:hover {
-  background-color: #9c1458;
-  border-color: #9c1458;
+  background-color: #ff976a;;
+  border-color: #ff976a;;
 }
 
 .btn--alt {
   background-color: transparent;
-  color: #800040;
+  color: #ff976a;;
 }
 
 .btn--alt:hover {
-  background-color: #f8dae9;
+  background-color: #6e9e96;;
 }
 
 .card {

@@ -1,7 +1,11 @@
 import NewMeetupForm from "../compontents/Layout/meetups/NewMeetupForm";
+import { useNavigate} from 'react-router-dom'; 
+
+
 
 
 function NewMeetup() {
+  const  navigate = useNavigate(); 
 
   function addMeetupHandler(meetupData) {
    fetch(
@@ -12,9 +16,11 @@ function NewMeetup() {
      body:JSON.stringify(meetupData), 
      headers: {
        'content-Type': 'application/json'
-     }
+     },
    }
-   );
+   ).then(()=> {
+navigate('/', {replace:true});
+   })
   }
 
 
