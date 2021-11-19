@@ -57,7 +57,6 @@ function AllMeetups() {
     <section>
     <Card>
     <h1>All Meetups</h1>
-
     <MeetupList myName={loadedMeetups} />
     </Card>
     </section>
